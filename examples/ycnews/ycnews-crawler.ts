@@ -5,9 +5,6 @@ const crawler = new Crawler({
   maxConcurrency: 1,
   maxRetries: 3,
   maxRequestsPerCrawl: 100,
-  browserType: "webkit",
-  userAgent:
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
 });
 
 // crawler.addPreTaskHandler(async ({ context }) => {
