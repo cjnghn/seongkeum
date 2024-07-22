@@ -2,11 +2,6 @@
 
 Lamina는 웹 크롤링을 위한 간단하고 강력한 TypeScript 라이브러리입니다. Playwright를 사용하여 브라우저를 제어하고 데이터를 수집할 수 있습니다.
 
-## 설치
-
-```bash
-npm install lamina
-```
 
 ## 사용법
 
