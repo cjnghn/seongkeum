@@ -1,14 +1,13 @@
-# Lamina
+# seongkeum
 
-Lamina는 웹 크롤링을 위한 간단하고 강력한 TypeScript 라이브러리입니다. Playwright를 사용하여 브라우저를 제어하고 데이터를 수집할 수 있습니다.
-
+seongkeum는 웹 크롤링을 위한 간단하고 강력한 TypeScript 라이브러리입니다. Playwright를 사용하여 브라우저를 제어하고 데이터를 수집할 수 있습니다.
 
 ## 사용법
 
 ### 기본 크롤러 설정
 
 ```typescript
-import { Crawler } from "lamina";
+import { Crawler } from "seongkeum";
 
 const crawler = new Crawler({
   headless: true,
